@@ -1,0 +1,108 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: url('https://images.unsplash.com/photo-1715545226118-dc42faf8d6f4?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTZ8fGNhbXBvJTIwZGUlMjBmdXRib2x8ZW58MHx8MHx8fDA%3D') no-repeat center center fixed;
+  background-size: cover; /* Asegura que la imagen cubra toda la ventana */
+}
+
+.container {
+  max-width: 1200px;
+  margin: auto;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: rgba(51, 51, 51, 0.8); /* Fondo semi-transparente para mejor legibilidad */
+  color: white;
+  padding: 20px;
+}
+
+.logo {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-right: 20px;
+}
+
+.subtitle {
+  margin-right: auto;
+}
+
+.cta-button {
+  background-color: yellow;
+  color: black;
+  font-weight: bold;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+}
+
+.contact {
+  color: rgb(255, 255, 255);
+}
+
+.navbar {
+  display: flex;
+  justify-content: center;
+  background-color: rgba(244, 244, 244, 0.8); /* Fondo semi-transparente para mejor legibilidad */
+  padding: 10px 0;
+}
+
+.nav-button {
+  background-color: #e0e0e0;
+  margin: 0 5px;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 15px;
+  cursor: pointer;
+}
+
+.main-content {
+  padding: 20px;
+  min-height: 100vh; /* Asegura que el contenedor ocupe al menos la altura de la ventana */
+}
+
+.community-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 20px 0;
+}
+
+.community-image {
+  width: 80%; /* Mantiene el ancho al 80% del contenedor */
+  max-width: 400px; /* Cambia el max-width para que no sea tan larga */
+  border-radius: 10px;
+  margin: 0 auto; /* Centra la imagen en el contenedor */
+}
+
+.newsletter-button {
+  background-color: #0099ff;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.events-section {
+  margin-top: 30px;
+}
+
+.event-video iframe {
+  width: 100%;
+  max-width: 600px;
+  height: 350px;
+  border-radius: 10px;
+}
+
+.mission-statement {
+  padding: 20px;
+  background-color: rgba(255, 255, 255, 0.8); /* Fondo semi-transparente para mejor legibilidad */
+  color: #333;
+  border-radius: 10px;
+  text-align: center;
+  margin: 20px 0;
+}
